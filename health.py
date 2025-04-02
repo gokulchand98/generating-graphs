@@ -6,7 +6,8 @@ import numpy as np
 from datetime import datetime
 
 # Load data from CSV file
-df = pd.read_csv('IHME_HEALTH_SPENDING_1995_2021.CSV')
+df = pd.read_csv('upload example data
+.CSV')
 
 # Filter data for the last two decades (2003-2021)
 df = df[df['year'].between(2003, 2021)]
